@@ -1,6 +1,6 @@
 import { Carousel } from "@material-tailwind/react";
  
-export default function CarouselDefault() {
+export function CarouselDefault() {
   return (
     <Carousel className="rounded-xl w-full">
       <img

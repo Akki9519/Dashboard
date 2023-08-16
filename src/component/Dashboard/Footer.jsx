@@ -47,8 +47,8 @@ const Footer
         {/* 5th box */}
         <div className="flex flex-col">
           <div className="font-bold text-xl" style={{ color: "#000958" }}>About Us</div>
-          <img src={logo} alt="logo" className="h-12 w-36 mt-5" />
-          <div className="mt-4">Akvayu</div>
+          <img src={logo} alt="logo" className="h-18 w-20 mt-5" />
+          <div className="mt-0">Akvayu</div>
           <div className="mt-3">Noida One</div>
           <div className="mt-3">Sector 62,Noida Uttar Pradesh</div>
         </div>

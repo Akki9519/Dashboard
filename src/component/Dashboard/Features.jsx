@@ -6,7 +6,7 @@ const Features = () => {
         <>
             <div className="grid grid-cols-1 gap-5 m-5 sm:grid-cols-2">
                 <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-                    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ig1} alt="" width="384" height="512" />
+                    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ig1} alt="" className='w-60' />
                     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
                         <blockquote>
                             <p class="text-lg font-medium">
@@ -25,8 +25,9 @@ const Features = () => {
                         </figcaption>
                     </div>
                 </figure>
+
                 <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-                    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ig1} alt="" width="384" height="512" />
+                    <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src={ig1} alt="" className='w-60'/>
                     <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
                         <blockquote>
                             <p class="text-lg font-medium">
