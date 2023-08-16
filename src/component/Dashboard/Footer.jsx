@@ -19,8 +19,8 @@ const Footer
           <p className="mt-10">Akvayu is incorported in August,2023.This company provide service to startup company.</p>
           <div className="flex flex-row">
             <div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><FacebookIcon /></div>
-            <Link to=''><div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><TwitterIcon /></div></Link>
-            <Link to=''><div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><LinkedInIcon /></div></Link>
+            <Link to='https://www.linkedin.com/company/akvayu/'><div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><TwitterIcon /></div></Link>
+            <Link to='https://www.linkedin.com/company/akvayu/'><div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><LinkedInIcon /></div></Link>
             <div style={{ borderRadius: "50%", backgroundColor: "white", padding: "5px", margin: "10px" }}><GoogleIcon /></div>
           </div>
         </div>

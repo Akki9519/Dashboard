@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from './../../assests/logo.png'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
@@ -9,9 +10,9 @@ export default function Navbar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
-                            <img src={logo} alt="logo" className="h-16 w-18"/>
-                        </a>
+                        <Link to="/" className="flex flex-row">
+                            <img src={logo} alt="logo" className="h-12 w-18 font-bold"/>
+                        </Link>
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -57,17 +58,17 @@ export default function Navbar() {
                         }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="font-bold hover:text-indigo-200">
-                                <a href="javascript:void(0)">Home</a>
+                            <li className="font-bold italic text-2xl hover:text-indigo-500">
+                                <Link to="/">Home</Link>
                             </li>
-                            <li className="font-bold hover:text-indigo-200">
-                                <a href="javascript:void(0)">Blog</a>
+                            <li className="font-bold italic text-2xl hover:text-indigo-500">
+                                <Link to="/blog">Blog</Link>
                             </li>
-                            <li className="font-bold hover:text-indigo-200">
-                                <a href="javascript:void(0)">About US</a>
+                            <li className="font-bold italic text-2xl hover:text-indigo-500">
+                                <Link to="/about">About US</Link>
                             </li>
-                            <li className="font-bold hover:text-indigo-200">
-                                <a href="javascript:void(0)">Contact US</a>
+                            <li className="font-bold italic text-2xl hover:text-indigo-500">
+                                <Link to="/contact">Contact US</Link>
                             </li>
                         </ul>
 
