@@ -4,14 +4,14 @@ import Footer from './Footer'
 import Features from './Features'
 import Product from './Product'
 import Content from './Content'
-import { Carousel } from "@material-tailwind/react";
+
 
 const Dashboard = () => {
   return (
     <div>
     <Navbar/>
-    
-    <div className="rounded-xl w-full pl-32 flex flex-row">
+    <div className="">
+    <div className="rounded-xl w-full pl-32 flex flex-row sm:grid-cols-1">
       <img
         src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
         alt="image 1"
@@ -27,6 +27,7 @@ const Dashboard = () => {
         alt="image 3"
         className="h-96 w-96   m-5 rounded-lg"
       />
+    </div>
     </div>
   
     <div className="text-2xl font-bold italic text-center">Product & Services</div>
