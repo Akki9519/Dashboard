@@ -13,11 +13,13 @@ import {
   export default function Product() {
     return (
       <div className="grid grid-cols-1 sm:grid-cols-3">
+
       <Card className="mt-10 m-5">
-        <CardHeader color="blue-gray" className="relative h-56">
+        <CardHeader color="blue-gray">
           <img
             src={carrier}
-            alt="card-image"
+            alt="card-image" 
+            className="h-96 w-full"
           />
         </CardHeader>
         <CardBody>
@@ -28,15 +30,16 @@ import {
             Provide a Knowledge regarding Opening in Tech Company and provide a link & detail about position.
           </Typography>
         </CardBody>
-        <CardFooter className="pt-0">
-          <Button>Read More</Button>
-        </CardFooter>
+    
       </Card>
+
+
       <Card className="mt-10 m-5">
-        <CardHeader color="blue-gray" className="relative h-56">
+        <CardHeader color="blue-gray" className="">
           <img
             src={resume}
             alt="card-image"
+            className="h-96 w-full"
           />
         </CardHeader>
         <CardBody>
@@ -46,15 +49,14 @@ import {
           <Typography className="mt-5 font-serif text-center">
           Crafting compelling resumes that stand out. Download your professionally designed PDF resume here: [Resume PDF Download Link]          </Typography>
         </CardBody>
-        <CardFooter className="pt-0">
-          <Button>Read More</Button>
-        </CardFooter>
+    
       </Card>
       <Card className="mt-10 m-5">
-        <CardHeader color="blue-gray" className="relative h-56">
+        <CardHeader color="blue-gray" className="">
           <img
             src={web}
             alt="card-image"
+            className="h-96 w-full"
           />
         </CardHeader>
         <CardBody>
@@ -64,9 +66,7 @@ import {
           <Typography className="mt-5 font-serif text-center">
           Unlock your vision with Our Company's tailored Design and Development Service. From captivating websites to user-friendly apps, we craft seamless user experiences while staying at the forefront of innovation. Partner with us to turn your ideas into impactful realities.          </Typography>
         </CardBody>
-        <CardFooter className="pt-0">
-          <Button>Read More</Button>
-        </CardFooter>
+    
       </Card>
       </div>
     );
