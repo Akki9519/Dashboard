@@ -18,7 +18,7 @@ import {
         <CardHeader color="blue-gray">
           <img
             src={carrier}
-            alt="card-image" 
+            alt="card" 
             className="h-96 w-full"
           />
         </CardHeader>
@@ -38,7 +38,7 @@ import {
         <CardHeader color="blue-gray" className="">
           <img
             src={resume}
-            alt="card-image"
+            alt="card"
             className="h-96 w-full"
           />
         </CardHeader>
@@ -55,7 +55,7 @@ import {
         <CardHeader color="blue-gray" className="">
           <img
             src={web}
-            alt="card-image"
+            alt="card"
             className="h-96 w-full"
           />
         </CardHeader>
