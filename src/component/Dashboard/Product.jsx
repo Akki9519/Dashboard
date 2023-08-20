@@ -2,9 +2,7 @@ import {
     Card,
     CardHeader,
     CardBody,
-    CardFooter,
     Typography,
-    Button,
   } from "@material-tailwind/react";
   import carrier from './../../assests/carrer.jpg'
   import resume from './../../assests/resume.jpg'
